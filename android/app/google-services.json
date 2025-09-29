@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "280554266468",
+    "project_id": "swasthya-saathi-app-50e96",
+    "storage_bucket": "swasthya-saathi-app-50e96.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280554266468:android:fdc9ba44dc913613e9a471",
+        "android_client_info": {
+          "package_name": "com.example.swasthya_saathi_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLgDfzJlkuLZ_QIR2QlyWjaX2NTKpCu5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
