@@ -140,22 +140,41 @@ Doctor:
 
 ## 🚀 How to Run
 
-### Backend
+### 1️⃣ Backend
 
 ```bash
 cd backend
 pip install -r requirements.txt
 python app.py
+```
 
-Flutter App
+The backend server will start locally (default: http://localhost:5000).
+
+---
+
+### 2️⃣ Flutter Mobile App (Sahayak App)
+
+```bash
 cd mobile_app
 flutter pub get
 flutter run
+```
 
-Web Dashboard
+Ensure:
+- Flutter SDK is installed
+- An emulator or physical device is connected
+
+---
+
+### 3️⃣ Web Dashboard (Doctor & Government Portal)
+
+```bash
 cd web_dashboard
 npm install
 npm start
+```
+
+The dashboard will run locally (default: http://localhost:3000).
 
 ---
 
@@ -163,19 +182,19 @@ npm start
 
 Swasthya Saathi can be expanded into a scalable national health infrastructure platform with:
 
-- **AI-based Early Disease Detection:**  
+- **AI-based Early Disease Detection**  
   Integration of machine learning models to identify high-risk patterns from aggregated health data.
 
-- **Predictive Outbreak Modeling:**  
+- **Predictive Outbreak Modeling**  
   Regional disease trend forecasting using time-series analytics.
 
-- **Multilingual AI Chatbot:**  
+- **Multilingual AI Chatbot**  
   Voice-enabled health assistance in regional languages for low-literacy users.
 
-- **Telemedicine Integration:**  
+- **Telemedicine Integration**  
   Video consultation module connecting migrant workers directly with certified doctors.
 
-- **Inter-State Record Portability:**  
+- **Inter-State Record Portability**  
   Nationwide migration tracking with centralized health identity integration.
 
 ---
@@ -185,10 +204,10 @@ Swasthya Saathi can be expanded into a scalable national health infrastructure p
 Swasthya Saathi aligns with:
 
 - **UN Sustainable Development Goal 3:** Good Health & Well-being  
-- **Digital India Healthcare Mission**
-- **Ayushman Bharat Digital Mission (ABDM)**
+- **Digital India Healthcare Mission**  
+- **Ayushman Bharat Digital Mission (ABDM)**  
 
-### Societal Impact:
+### Societal Impact
 
 - Reduces misdiagnosis due to missing medical history  
 - Enables healthcare access for undocumented or mobile workers  
@@ -201,15 +220,17 @@ The platform demonstrates how technology can bridge healthcare accessibility gap
 
 ## 📌 Project Status
 
-### Implemented Modules:
-- Volunteer Registration App (Flutter)
-- Doctor Web Portal (React)
-- Backend API & Database Integration
+### ✅ Implemented Modules
 
-### In Progress:
-- Government Analytics Dashboard Expansion
-- Advanced Health Data Visualization
-- AI-driven predictive features (planned phase)
+- Volunteer Registration App (Flutter)  
+- Doctor Web Portal (React)  
+- Backend API & Database Integration  
+
+### 🚧 In Progress
+
+- Government Analytics Dashboard Expansion  
+- Advanced Health Data Visualization  
+- AI-driven predictive features (planned phase)  
 
 ---
 
@@ -217,6 +238,6 @@ The platform demonstrates how technology can bridge healthcare accessibility gap
 
 Designed with modular architecture, Swasthya Saathi can be:
 
-- Deployed at district-level health centers
-- Integrated with national digital health databases
-- Extended to other migrant populations across India
+- Deployed at district-level health centers  
+- Integrated with national digital health databases  
+- Extended to other migrant populations across India  
