@@ -157,32 +157,66 @@ cd web_dashboard
 npm install
 npm start
 
-🌱 Future Scope
+---
 
-AI-based early disease detection
+## 🌱 Future Scope
 
-Predictive outbreak modeling
+Swasthya Saathi can be expanded into a scalable national health infrastructure platform with:
 
-Multilingual chatbot integration
+- **AI-based Early Disease Detection:**  
+  Integration of machine learning models to identify high-risk patterns from aggregated health data.
 
-Telemedicine support
+- **Predictive Outbreak Modeling:**  
+  Regional disease trend forecasting using time-series analytics.
 
-🎯 Impact
+- **Multilingual AI Chatbot:**  
+  Voice-enabled health assistance in regional languages for low-literacy users.
+
+- **Telemedicine Integration:**  
+  Video consultation module connecting migrant workers directly with certified doctors.
+
+- **Inter-State Record Portability:**  
+  Nationwide migration tracking with centralized health identity integration.
+
+---
+
+## 🎯 Impact
 
 Swasthya Saathi aligns with:
 
-UN SDG 3 (Good Health & Well-being)
+- **UN Sustainable Development Goal 3:** Good Health & Well-being  
+- **Digital India Healthcare Mission**
+- **Ayushman Bharat Digital Mission (ABDM)**
 
-Digital India Healthcare Initiatives
+### Societal Impact:
 
-It demonstrates how technology can bridge healthcare accessibility gaps in vulnerable communities.
+- Reduces misdiagnosis due to missing medical history  
+- Enables healthcare access for undocumented or mobile workers  
+- Provides data-driven policy insights for government bodies  
+- Strengthens preventive healthcare infrastructure  
 
-📌 Project Status
+The platform demonstrates how technology can bridge healthcare accessibility gaps for vulnerable communities through structured digital identity and secure medical data exchange.
 
-Core functionality implemented for:
+---
 
-Volunteer App
+## 📌 Project Status
 
-Doctor Portal
+### Implemented Modules:
+- Volunteer Registration App (Flutter)
+- Doctor Web Portal (React)
+- Backend API & Database Integration
 
-Government dashboard analytics module in progress.
+### In Progress:
+- Government Analytics Dashboard Expansion
+- Advanced Health Data Visualization
+- AI-driven predictive features (planned phase)
+
+---
+
+## 📊 Scalability Potential
+
+Designed with modular architecture, Swasthya Saathi can be:
+
+- Deployed at district-level health centers
+- Integrated with national digital health databases
+- Extended to other migrant populations across India
