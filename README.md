@@ -1,53 +1,188 @@
-# swasthya_saathi_final
+# 🏥 Swasthya Saathi  
+### Digital Health Coordination Ecosystem for Migrant Workers
 
-Swasthya Saathi: Digital Health Records for Migrant Workers
+Swasthya Saathi is a multi-role digital health record ecosystem designed to provide continuous, secure, and accessible healthcare for migrant workers in Kerala.
 
-Swasthya Saathi is an integrated digital health record management system designed to provide continuous, accessible, and secure healthcare for migrant workers in Kerala. The platform bridges the gap between workers, healthcare providers, and government health initiatives, aligning with UN Sustainable Development Goals.
-
-## 🚀 The Problem
-
-Migrant workers often face significant healthcare challenges due to language barriers, lack of medical history, and transient lifestyles. Critical health information is lost, leading to misdiagnosis and inefficient treatment. Our system ensures a worker's health history is always accessible, safe, and understandable.
-
-## ✨ The Solution
-
-We propose a four-part ecosystem built around a central, secure health database:
-
-1.  **The Sahayak App (Volunteer's App):** An offline-first mobile app for authorized volunteers to register workers, capture demographic/medical data via Aadhaar QR scan, and instantly issue a physical **Swasthya Card**.
-2.  **The Swasthya Card (Worker's ID):** A durable, physical ID card with a unique QR code. It's the worker's key to their health records, requiring no smartphone or technical skill from them.
-3.  **The Doctor's Web Portal:** A secure, browser-based portal for doctors to scan a worker's QR code, get OTP-based consent, and instantly access their complete, translated medical history to provide safe and informed care.
-4.  **The Public Health Dashboard:** An analytics platform for government officials to view anonymized, aggregated health data, identify disease hotspots, and formulate effective public health policies.
-
-## 🛠️ Tech Stack
-
--   **Mobile App (Flutter):** For the Sahayak's registration app.
--   **Web Portal (React/TypeScript):** For the doctor's and government dashboards.
--   **Backend (Python/Flask):** For API services, data processing, and business logic.
--   **Database (MongoDB):** For storing health records and user data.
--   **AI/ML (OpenCV, MediaPipe):** *(Future scope for automated health assessments)*.
-
-## ⚙️ Core Features
-
--   **Aadhaar QR Integration:** Fast and error-free data entry.
--   **Offline-First Capability:** The Sahayak App works reliably in low-connectivity areas using a local SQLite database for caching.
--   **On-the-Spot Card Printing:** Bluetooth printer integration to issue physical ID cards instantly.
--   **OTP-Based Consent:** Ensures patient privacy and control over their data.
--   **Real-time Analytics:** Anonymized data for public health monitoring.
-
-## 📋 Project Status
-
-This repository contains the source code for the Swasthya Saathi project. The current focus is on building the core functionality of the Sahayak's App and the Doctor's Web Portal.
+The platform connects workers, doctors, volunteers, and government authorities through a unified health data infrastructure.
 
 ---
 
-## Getting Started
+## 🌍 Problem Statement
 
-This project is a starting point for a Flutter application.
+Migrant workers face systemic healthcare challenges:
 
-A few resources to get you started if this is your first Flutter project:
+- Language barriers during treatment
+- No centralized medical history
+- Loss of records due to relocation
+- Misdiagnosis due to incomplete information
+- Limited access to structured public health systems
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+These issues result in delayed treatment and poor health outcomes.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 💡 Solution Overview
+
+Swasthya Saathi introduces a four-component ecosystem built on a secure central health database:
+
+### 1️⃣ Sahayak App (Volunteer App – Mobile)
+
+- Worker registration
+- Aadhaar QR scanning
+- Medical data capture
+- Offline-first capability
+- Instant ID card generation
+
+Built using **Flutter**
+
+---
+
+### 2️⃣ Swasthya Card (Worker Identity)
+
+- Physical health ID card
+- Unique QR code
+- No smartphone required for worker
+- Enables secure access to records
+
+---
+
+### 3️⃣ Doctor Web Portal
+
+- QR scan to fetch records
+- OTP-based consent verification
+- Real-time access to full medical history
+- Language translation support
+- Diagnosis and treatment updates
+
+Built using **React + TypeScript**
+
+---
+
+### 4️⃣ Government Public Health Dashboard
+
+- Aggregated, anonymized health analytics
+- Disease trend identification
+- Region-based case monitoring
+- Policy decision support
+
+---
+
+## 🏗 System Architecture
+
+**Mobile App:** Flutter  
+**Web Dashboards:** React + TypeScript  
+**Backend API:** Python (Flask)  
+**Database:** MongoDB  
+**Local Caching:** SQLite  
+**Future Scope AI:** OpenCV, MediaPipe  
+
+---
+
+## 🔐 Security & Privacy
+
+- OTP-based consent before record access
+- Role-based access control (RBAC)
+- Encrypted health record storage
+- No open public data exposure
+
+---
+
+## 🔄 End-to-End Workflow
+
+### Step 1 — Worker Registration
+Volunteer uses Sahayak App:
+- Scan Aadhaar QR
+- Capture medical details
+- Generate Swasthya Card
+
+### Step 2 — Medical Visit
+Doctor:
+- Scans QR
+- Worker gives OTP consent
+- Doctor accesses full history
+
+### Step 3 — Treatment Update
+- Doctor updates diagnosis
+- Records synced to central DB
+
+### Step 4 — Government Monitoring
+- Dashboard reflects anonymized trends
+- Authorities detect health clusters
+
+---
+
+## 📸 Application Screenshots
+
+### 📱 Sahayak Registration App
+<img src="images/app_registration.png" width="350">
+
+### 🆔 Swasthya Card QR
+<img src="images/swasthya_card.png" width="350">
+
+### 🖥 Doctor Portal Dashboard
+<img src="images/doctor_dashboard.png" width="700">
+
+### 📊 Government Analytics Dashboard
+<img src="images/gov_dashboard.png" width="700">
+
+---
+
+## 🛠 Core Features
+
+- Aadhaar QR Integration
+- Offline-first mobile architecture
+- Bluetooth card printing support
+- Secure OTP-based consent
+- Real-time data synchronization
+- Health analytics dashboard
+
+---
+
+## 🚀 How to Run
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+
+Flutter App
+cd mobile_app
+flutter pub get
+flutter run
+
+Web Dashboard
+cd web_dashboard
+npm install
+npm start
+
+🌱 Future Scope
+
+AI-based early disease detection
+
+Predictive outbreak modeling
+
+Multilingual chatbot integration
+
+Telemedicine support
+
+🎯 Impact
+
+Swasthya Saathi aligns with:
+
+UN SDG 3 (Good Health & Well-being)
+
+Digital India Healthcare Initiatives
+
+It demonstrates how technology can bridge healthcare accessibility gaps in vulnerable communities.
+
+📌 Project Status
+
+Core functionality implemented for:
+
+Volunteer App
+
+Doctor Portal
+
+Government dashboard analytics module in progress.
